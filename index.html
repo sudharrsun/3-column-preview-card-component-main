@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -14,8 +14,9 @@
         font-family: "Big shoulder";
         src: url(/BigShouldersDisplay-Regular.ttf);
       }
-      .exterior {
+      body {
         margin: 10% 17%;
+        min-width: 375px;
       }
       .interior {
         display: flex;
@@ -91,8 +92,7 @@
     </style>
   </head>
   <body>
-    <div class="exterior">
-      <div class="interior">
+    <div class="interior">
         <div class="sedans">
           <img class="imgs" alt="sedan-image" src="./images/icon-sedans.svg" />
           <h2>SEDANS</h2>
@@ -115,6 +115,5 @@
           <a href="">Learn More</a>
         </div>
       </div>
-    </div>
   </body>
 </html>
